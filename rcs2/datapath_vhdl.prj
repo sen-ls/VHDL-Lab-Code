@@ -1,0 +1,6 @@
+vhdl work "/home/ise/Xilinx/submission_template/submit/rcs2/xorop.vhd"
+vhdl work "/home/ise/Xilinx/submission_template/submit/rcs2/register16.vhd"
+vhdl work "/home/ise/Xilinx/submission_template/submit/rcs2/mux4x1.vhd"
+vhdl work "/home/ise/Xilinx/submission_template/submit/rcs2/mulop.vhd"
+vhdl work "/home/ise/Xilinx/submission_template/submit/rcs2/addop.vhd"
+vhdl work "/home/ise/Xilinx/submission_template/submit/rcs2/datapath.vhd"

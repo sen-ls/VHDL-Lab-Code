@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="old" >Net Timing constraints on signal <arg fmt="%s" index="1">Clk</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="fatal" file="MapHelpers" num="0" delta="new" srcfile="basmpreport.c" srcline="318" srcrcs="1.18" >Cannot open mapper report file &apos;<arg fmt="%s" index="1">idea_com_map.mrp</arg>&apos;.
+</msg>
+
+<msg type="internal" file="Portability" num="0" delta="new" srcfile="Port_MsgStreamImp.c" srcline="468" srcrcs="1.20" >Unable to delete requested message stream.
+</msg>
+
+<msg type="fatal" file="MapHelpers" num="0" delta="new" srcfile="basmpreport.c" srcline="214" srcrcs="1.18" >Not able to add errors to file &apos;<arg fmt="%s" index="1">idea_com_map.mrp</arg>&apos;.
+</msg>
+
+</messages>

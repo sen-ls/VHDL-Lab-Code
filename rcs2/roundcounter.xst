@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Xilinx/submission_template/submit/rcs2/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Xilinx/submission_template/submit/rcs2/xst"
+elaborate
+-ifn roundcounter.prj
+-ifmt mixed

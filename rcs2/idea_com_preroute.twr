@@ -1,0 +1,971 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/nas/ei/share/tools/xilinx/ise/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce
+-intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml idea_com_preroute.twx
+idea_com_map.ncd -o idea_com_preroute.twr idea_com.pcf -ucf idea_hw.ucf
+
+Design file:              idea_com_map.ncd
+Physical constraint file: idea_com.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "Clk_BUFGP/IBUFG" PERIOD = 20 ns HIGH 40%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 2607 paths analyzed, 112 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.007ns.
+--------------------------------------------------------------------------------
+
+Paths for end point clk_div_1/counter_31 (SLICEL.CIN), 30 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     13.993ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_0 (FF)
+  Destination:          clk_div_1/counter_31 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      6.007ns (Levels of Logic = 16)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_0 to clk_div_1/counter_31
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.591   clk_div_1/counter<0>
+                                                       clk_div_1/counter_0
+    SLICEL.F1            net (fanout=2)     e  0.100   clk_div_1/counter<0>
+    SLICEL.COUT          Topcyf                1.162   clk_div_1/counter<0>
+                                                       clk_div_1/Mcount_counter_lut<0>_INV_0
+                                                       clk_div_1/Mcount_counter_cy<0>
+                                                       clk_div_1/Mcount_counter_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<2>
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CLK           Tcinck                1.002   clk_div_1/counter<30>
+                                                       clk_div_1/Mcount_counter_cy<30>
+                                                       clk_div_1/Mcount_counter_xor<31>
+                                                       clk_div_1/counter_31
+    -------------------------------------------------  ---------------------------
+    Total                                      6.007ns (4.407ns logic, 1.600ns route)
+                                                       (73.4% logic, 26.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.158ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_1 (FF)
+  Destination:          clk_div_1/counter_31 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.842ns (Levels of Logic = 16)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_1 to clk_div_1/counter_31
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.587   clk_div_1/counter<0>
+                                                       clk_div_1/counter_1
+    SLICEL.G1            net (fanout=3)     e  0.100   clk_div_1/counter<1>
+    SLICEL.COUT          Topcyg                1.001   clk_div_1/counter<0>
+                                                       clk_div_1/counter<1>_rt
+                                                       clk_div_1/Mcount_counter_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<2>
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CLK           Tcinck                1.002   clk_div_1/counter<30>
+                                                       clk_div_1/Mcount_counter_cy<30>
+                                                       clk_div_1/Mcount_counter_xor<31>
+                                                       clk_div_1/counter_31
+    -------------------------------------------------  ---------------------------
+    Total                                      5.842ns (4.242ns logic, 1.600ns route)
+                                                       (72.6% logic, 27.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.211ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_2 (FF)
+  Destination:          clk_div_1/counter_31 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.789ns (Levels of Logic = 15)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_2 to clk_div_1/counter_31
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.591   clk_div_1/counter<2>
+                                                       clk_div_1/counter_2
+    SLICEL.F1            net (fanout=3)     e  0.100   clk_div_1/counter<2>
+    SLICEL.COUT          Topcyf                1.162   clk_div_1/counter<2>
+                                                       clk_div_1/counter<2>_rt
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CLK           Tcinck                1.002   clk_div_1/counter<30>
+                                                       clk_div_1/Mcount_counter_cy<30>
+                                                       clk_div_1/Mcount_counter_xor<31>
+                                                       clk_div_1/counter_31
+    -------------------------------------------------  ---------------------------
+    Total                                      5.789ns (4.289ns logic, 1.500ns route)
+                                                       (74.1% logic, 25.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point clk_div_1/counter_29 (SLICEL.CIN), 28 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     14.211ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_0 (FF)
+  Destination:          clk_div_1/counter_29 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.789ns (Levels of Logic = 15)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_0 to clk_div_1/counter_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.591   clk_div_1/counter<0>
+                                                       clk_div_1/counter_0
+    SLICEL.F1            net (fanout=2)     e  0.100   clk_div_1/counter<0>
+    SLICEL.COUT          Topcyf                1.162   clk_div_1/counter<0>
+                                                       clk_div_1/Mcount_counter_lut<0>_INV_0
+                                                       clk_div_1/Mcount_counter_cy<0>
+                                                       clk_div_1/Mcount_counter_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<2>
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CLK           Tcinck                1.002   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_xor<29>
+                                                       clk_div_1/counter_29
+    -------------------------------------------------  ---------------------------
+    Total                                      5.789ns (4.289ns logic, 1.500ns route)
+                                                       (74.1% logic, 25.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.376ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_1 (FF)
+  Destination:          clk_div_1/counter_29 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.624ns (Levels of Logic = 15)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_1 to clk_div_1/counter_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.587   clk_div_1/counter<0>
+                                                       clk_div_1/counter_1
+    SLICEL.G1            net (fanout=3)     e  0.100   clk_div_1/counter<1>
+    SLICEL.COUT          Topcyg                1.001   clk_div_1/counter<0>
+                                                       clk_div_1/counter<1>_rt
+                                                       clk_div_1/Mcount_counter_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<2>
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CLK           Tcinck                1.002   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_xor<29>
+                                                       clk_div_1/counter_29
+    -------------------------------------------------  ---------------------------
+    Total                                      5.624ns (4.124ns logic, 1.500ns route)
+                                                       (73.3% logic, 26.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.429ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_2 (FF)
+  Destination:          clk_div_1/counter_29 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.571ns (Levels of Logic = 14)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_2 to clk_div_1/counter_29
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.591   clk_div_1/counter<2>
+                                                       clk_div_1/counter_2
+    SLICEL.F1            net (fanout=3)     e  0.100   clk_div_1/counter<2>
+    SLICEL.COUT          Topcyf                1.162   clk_div_1/counter<2>
+                                                       clk_div_1/counter<2>_rt
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CLK           Tcinck                1.002   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_xor<29>
+                                                       clk_div_1/counter_29
+    -------------------------------------------------  ---------------------------
+    Total                                      5.571ns (4.171ns logic, 1.400ns route)
+                                                       (74.9% logic, 25.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point clk_div_1/counter_30 (SLICEL.CIN), 30 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     14.400ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_0 (FF)
+  Destination:          clk_div_1/counter_30 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.600ns (Levels of Logic = 16)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_0 to clk_div_1/counter_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.591   clk_div_1/counter<0>
+                                                       clk_div_1/counter_0
+    SLICEL.F1            net (fanout=2)     e  0.100   clk_div_1/counter<0>
+    SLICEL.COUT          Topcyf                1.162   clk_div_1/counter<0>
+                                                       clk_div_1/Mcount_counter_lut<0>_INV_0
+                                                       clk_div_1/Mcount_counter_cy<0>
+                                                       clk_div_1/Mcount_counter_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<2>
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CLK           Tcinck                0.595   clk_div_1/counter<30>
+                                                       clk_div_1/Mcount_counter_xor<30>
+                                                       clk_div_1/counter_30
+    -------------------------------------------------  ---------------------------
+    Total                                      5.600ns (4.000ns logic, 1.600ns route)
+                                                       (71.4% logic, 28.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.565ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_1 (FF)
+  Destination:          clk_div_1/counter_30 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.435ns (Levels of Logic = 16)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_1 to clk_div_1/counter_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.587   clk_div_1/counter<0>
+                                                       clk_div_1/counter_1
+    SLICEL.G1            net (fanout=3)     e  0.100   clk_div_1/counter<1>
+    SLICEL.COUT          Topcyg                1.001   clk_div_1/counter<0>
+                                                       clk_div_1/counter<1>_rt
+                                                       clk_div_1/Mcount_counter_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<2>
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CLK           Tcinck                0.595   clk_div_1/counter<30>
+                                                       clk_div_1/Mcount_counter_xor<30>
+                                                       clk_div_1/counter_30
+    -------------------------------------------------  ---------------------------
+    Total                                      5.435ns (3.835ns logic, 1.600ns route)
+                                                       (70.6% logic, 29.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     14.618ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               clk_div_1/counter_2 (FF)
+  Destination:          clk_div_1/counter_30 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      5.382ns (Levels of Logic = 15)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 0.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: clk_div_1/counter_2 to clk_div_1/counter_30
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.591   clk_div_1/counter<2>
+                                                       clk_div_1/counter_2
+    SLICEL.F1            net (fanout=3)     e  0.100   clk_div_1/counter<2>
+    SLICEL.COUT          Topcyf                1.162   clk_div_1/counter<2>
+                                                       clk_div_1/counter<2>_rt
+                                                       clk_div_1/Mcount_counter_cy<2>
+                                                       clk_div_1/Mcount_counter_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<4>
+                                                       clk_div_1/Mcount_counter_cy<4>
+                                                       clk_div_1/Mcount_counter_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<6>
+                                                       clk_div_1/Mcount_counter_cy<6>
+                                                       clk_div_1/Mcount_counter_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<8>
+                                                       clk_div_1/Mcount_counter_cy<8>
+                                                       clk_div_1/Mcount_counter_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<10>
+                                                       clk_div_1/Mcount_counter_cy<10>
+                                                       clk_div_1/Mcount_counter_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<12>
+                                                       clk_div_1/Mcount_counter_cy<12>
+                                                       clk_div_1/Mcount_counter_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<14>
+                                                       clk_div_1/Mcount_counter_cy<14>
+                                                       clk_div_1/Mcount_counter_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<16>
+                                                       clk_div_1/Mcount_counter_cy<16>
+                                                       clk_div_1/Mcount_counter_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<17>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<18>
+                                                       clk_div_1/Mcount_counter_cy<18>
+                                                       clk_div_1/Mcount_counter_cy<19>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<19>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<20>
+                                                       clk_div_1/Mcount_counter_cy<20>
+                                                       clk_div_1/Mcount_counter_cy<21>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<21>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<22>
+                                                       clk_div_1/Mcount_counter_cy<22>
+                                                       clk_div_1/Mcount_counter_cy<23>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<23>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<24>
+                                                       clk_div_1/Mcount_counter_cy<24>
+                                                       clk_div_1/Mcount_counter_cy<25>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<25>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<26>
+                                                       clk_div_1/Mcount_counter_cy<26>
+                                                       clk_div_1/Mcount_counter_cy<27>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<27>
+    SLICEL.COUT          Tbyp                  0.118   clk_div_1/counter<28>
+                                                       clk_div_1/Mcount_counter_cy<28>
+                                                       clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CIN           net (fanout=1)     e  0.100   clk_div_1/Mcount_counter_cy<29>
+    SLICEL.CLK           Tcinck                0.595   clk_div_1/counter<30>
+                                                       clk_div_1/Mcount_counter_xor<30>
+                                                       clk_div_1/counter_30
+    -------------------------------------------------  ---------------------------
+    Total                                      5.382ns (3.882ns logic, 1.500ns route)
+                                                       (72.1% logic, 27.9% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "Clk_BUFGP/IBUFG" PERIOD = 20 ns HIGH 40%;
+--------------------------------------------------------------------------------
+
+Paths for end point clk_div_1/counter_0 (SLICEL.F1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.374ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               clk_div_1/counter_0 (FF)
+  Destination:          clk_div_1/counter_0 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.374ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 20.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: clk_div_1/counter_0 to clk_div_1/counter_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.473   clk_div_1/counter<0>
+                                                       clk_div_1/counter_0
+    SLICEL.F1            net (fanout=2)     e  0.100   clk_div_1/counter<0>
+    SLICEL.CLK           Tckf        (-Th)    -0.801   clk_div_1/counter<0>
+                                                       clk_div_1/Mcount_counter_lut<0>_INV_0
+                                                       clk_div_1/Mcount_counter_xor<0>
+                                                       clk_div_1/counter_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.374ns (1.274ns logic, 0.100ns route)
+                                                       (92.7% logic, 7.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point clk_div_1/counter_2 (SLICEL.F1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.374ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               clk_div_1/counter_2 (FF)
+  Destination:          clk_div_1/counter_2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.374ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 20.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: clk_div_1/counter_2 to clk_div_1/counter_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.473   clk_div_1/counter<2>
+                                                       clk_div_1/counter_2
+    SLICEL.F1            net (fanout=3)     e  0.100   clk_div_1/counter<2>
+    SLICEL.CLK           Tckf        (-Th)    -0.801   clk_div_1/counter<2>
+                                                       clk_div_1/counter<2>_rt
+                                                       clk_div_1/Mcount_counter_xor<2>
+                                                       clk_div_1/counter_2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.374ns (1.274ns logic, 0.100ns route)
+                                                       (92.7% logic, 7.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point clk_div_1/counter_4 (SLICEL.F1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.374ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               clk_div_1/counter_4 (FF)
+  Destination:          clk_div_1/counter_4 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.374ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk_BUFGP rising at 20.000ns
+  Destination Clock:    Clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: clk_div_1/counter_4 to clk_div_1/counter_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.XQ            Tcko                  0.473   clk_div_1/counter<4>
+                                                       clk_div_1/counter_4
+    SLICEL.F1            net (fanout=3)     e  0.100   clk_div_1/counter<4>
+    SLICEL.CLK           Tckf        (-Th)    -0.801   clk_div_1/counter<4>
+                                                       clk_div_1/counter<4>_rt.1
+                                                       clk_div_1/Mcount_counter_xor<4>
+                                                       clk_div_1/counter_4
+    -------------------------------------------------  ---------------------------
+    Total                                      1.374ns (1.274ns logic, 0.100ns route)
+                                                       (92.7% logic, 7.3% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "Clk_BUFGP/IBUFG" PERIOD = 20 ns HIGH 40%;
+--------------------------------------------------------------------------------
+Slack: 18.005ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 20.000ns
+  High pulse: 8.000ns
+  High pulse limit: 0.798ns (Tch)
+  Physical resource: clk_div_1/CLK_OUT1/CLK
+  Logical resource: clk_div_1/CLK_OUT/CK
+  Location pin: SLICEL.CLK
+  Clock network: Clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 18.005ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 20.000ns
+  High pulse: 8.000ns
+  High pulse limit: 0.798ns (Tch)
+  Physical resource: clk_div_1/counter<0>/CLK
+  Logical resource: clk_div_1/counter_0/CK
+  Location pin: SLICEL.CLK
+  Clock network: Clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 18.005ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 20.000ns
+  High pulse: 8.000ns
+  High pulse limit: 0.798ns (Tch)
+  Physical resource: clk_div_1/counter<0>/CLK
+  Logical resource: clk_div_1/counter_1/CK
+  Location pin: SLICEL.CLK
+  Clock network: Clk_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    6.007|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 2607 paths, 0 nets, and 158 connections
+
+Design statistics:
+   Minimum period:   6.007ns{1}   (Maximum frequency: 166.472MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Fri Jan 19 13:36:45 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 356 MB
+
+
+

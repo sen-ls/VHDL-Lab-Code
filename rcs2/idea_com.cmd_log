@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.xst" -ofn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.syr" 
+xst -intstyle ise -ifn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.xst" -ofn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.syr" 
+xst -intstyle ise -ifn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.xst" -ofn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.syr" 
+xst -intstyle ise -ifn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.xst" -ofn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc idea_hw.ucf -p xc3s500e-fg320-4 "idea_com.ngc" idea_com.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o idea_com_map.ncd idea_com.ngd idea_com.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml idea_com_preroute.twx idea_com_map.ncd -o idea_com_preroute.twr idea_com.pcf -ucf idea_hw.ucf 
+netgen -intstyle ise -s 4  -pcf idea_com.pcf -rpw 100 -tpw 0 -ar Structure -tm idea_com -w -dir netgen/map -ofmt vhdl -sim idea_com_map.ncd idea_com_map.vhd 
+xst -intstyle ise -ifn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.xst" -ofn "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc idea_hw.ucf -p xc3s500e-fg320-4 "idea_com.ngc" idea_com.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o idea_com_map.ncd idea_com.ngd idea_com.pcf 
