@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Xilinx/submission_template/submit/selected_files_2023128_16849/rcs1/tb_idea_single_isim_beh.exe" -prj "/home/ise/Xilinx/submission_template/submit/selected_files_2023128_16849/rcs1/tb_idea_single_beh.prj" "work.tb_idea_single" 

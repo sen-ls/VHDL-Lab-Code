@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Xilinx/submission_template/submit/selected_files_2023128_16849/rcs1/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Xilinx/submission_template/submit/selected_files_2023128_16849/rcs1/xst"
+elaborate
+-ifn keygenerator.prj
+-ifmt mixed
