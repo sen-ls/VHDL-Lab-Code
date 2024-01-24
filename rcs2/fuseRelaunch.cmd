@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_idea_rcs2_isim_beh.exe" -prj "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_idea_rcs2_beh.prj" "work.tb_idea_rcs2" 
+-intstyle "ise" -incremental -o "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_control_isim_beh.exe" -prj "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_control_beh.prj" "work.tb_control" 

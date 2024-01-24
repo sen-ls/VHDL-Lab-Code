@@ -102,15 +102,20 @@ begin
 				when Calc =>
                 INIT <= '0';
                 READY <= '0';
-                if RESULT = '1' then
-                    if round_counter = "1000" then
-                        NEXT_STATE <= Sleep;
-                    else
-                        NEXT_STATE <= Setup;
-                    end if;
-                else
-                    NEXT_STATE <= Calc;
-                end if;
+					if round_counter = "1000" then
+						 if RESULT = '1' then
+							  NEXT_STATE <= Sleep;
+						 else
+							  -- 如果 RESULT 不为 '1' 且 round_counter 为 "1000"
+							  NEXT_STATE <= Calc;
+						 end if;
+					else
+						 if RESULT = '1' then
+							  NEXT_STATE <= Setup;
+						 else
+							  NEXT_STATE <= Calc;
+						 end if;
+					end if;
 					s1 <= '0';
 					s2 <= '0';
 					c1 <= '1';					 

@@ -2,12 +2,12 @@ Command line:
    tb_roundcounter_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  43288
+     -socket  57881
 
-Thu Jan 18 03:14:26 2024
+Thu Jan 18 08:17:11 2024
 
 
- Elaboration Time: 0.03 sec
+ Elaboration Time: 0.04 sec
 
  Current Memory Usage: 198.726 Meg
 
@@ -20,9 +20,9 @@ Thu Jan 18 03:14:26 2024
  Total Traceable Variables  : 14
  Total Scalar Nets and Variables : 507
 
- Total Simulation Time: 0.04 sec
+ Total Simulation Time: 0.06 sec
 
  Current Memory Usage: 276.324 Meg
 
-Thu Jan 18 03:14:50 2024
+Thu Jan 18 08:24:37 2024
 
