@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="idea" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd/r9 - trafo - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r1 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nas|lrz|home|ge34gak|direct|idea.vhd/r8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/round - Behavioral |home|ise|Xilinx|submission_template|submit|direct|round.vhd</ClosedNode>
+         <ClosedNode>/round - Behavioral |nas|lrz|home|ge34gak|direct|round.vhd</ClosedNode>
+         <ClosedNode>/tb_round - behavior |nas|lrz|home|ge34gak|direct|tb_round.vhd</ClosedNode>
+         <ClosedNode>/td_addop - behavior |nas|lrz|home|ge34gak|direct|td_addop.vhd</ClosedNode>
+         <ClosedNode>/td_xorop - behavior |nas|lrz|home|ge34gak|direct|td_xorop.vhd</ClosedNode>
+         <ClosedNode>/trafo - Behavioral |home|ise|Xilinx|submission_template|submit|direct|trafo.vhd</ClosedNode>
+         <ClosedNode>/trafo - Behavioral |nas|lrz|home|ge34gak|direct|trafo.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>n1 - mulop - Behavioral (/nas/lrz/home/ge34gak/direct/mulop.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000103000000020000000000000000000000000200000064ffffffff000000810000000300000002000001030000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>n1 - mulop - Behavioral (/nas/lrz/home/ge34gak/direct/mulop.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000039c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007500000001000000000000005d0000000100000000000000840000000100000000000002460000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>addop.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000120000000010001000100000000000000000000000064ffffffff000000810000000000000001000001200000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/idea - Structural |home|ise|Xilinx|submission_template|submit|direct|idea.vhd</ClosedNode>
+         <ClosedNode>/round - Behavioral |home|ise|Xilinx|submission_template|submit|direct|round.vhd</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_mulop - behavior |home|ise|Xilinx|submission_template|submit|direct|tb_mulop.vhd</ClosedNode>
+         <ClosedNode>/tb_mulop - behavior |nas|lrz|home|ge34gak|direct|tb_mulop.vhd</ClosedNode>
+         <ClosedNode>/tb_round - behavior |home|ise|Xilinx|submission_template|submit|direct|tb_round.vhd</ClosedNode>
+         <ClosedNode>/tb_round - behavior |nas|lrz|home|ge34gak|direct|tb_round.vhd/uut - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_trafo - behavior |home|ise|Xilinx|submission_template|submit|direct|tb_trafo.vhd</ClosedNode>
+         <ClosedNode>/tb_trafo - behavior |nas|lrz|home|ge34gak|direct|tb_trafo.vhd</ClosedNode>
+         <ClosedNode>/td_addop - behavior |home|ise|Xilinx|submission_template|submit|direct|td_addop.vhd</ClosedNode>
+         <ClosedNode>/td_addop - behavior |nas|lrz|home|ge34gak|direct|td_addop.vhd</ClosedNode>
+         <ClosedNode>/td_xorop - behavior |home|ise|Xilinx|submission_template|submit|direct|td_xorop.vhd</ClosedNode>
+         <ClosedNode>/td_xorop - behavior |nas|lrz|home|ge34gak|direct|td_xorop.vhd</ClosedNode>
+         <ClosedNode>/testbench - behavior |home|ise|Xilinx|submission_template|submit|direct|tb_idea.vhd</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r1 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/testbench - behavior |nas|lrz|home|ge34gak|direct|tb_idea.vhd/uut - idea - Structural/r9 - trafo - Behavioral</ClosedNode>
+         <ClosedNode>/trafo - Behavioral |home|ise|Xilinx|submission_template|submit|direct|trafo.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_idea - behavior (/nas/lrz/home/ge34gak/direct/tb_idea.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000161000000020000000000000000000000000200000064ffffffff000000810000000300000002000001610000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_idea - behavior (/nas/lrz/home/ge34gak/direct/tb_idea.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+</Project>

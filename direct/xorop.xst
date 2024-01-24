@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Xilinx/submission_template/submit/direct/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Xilinx/submission_template/submit/direct/xst"
+elaborate
+-ifn xorop.prj
+-ifmt mixed

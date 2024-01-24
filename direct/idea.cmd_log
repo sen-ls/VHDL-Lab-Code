@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/nas/lrz/home/ge34gak/direct/idea.xst" -ofn "/nas/lrz/home/ge34gak/direct/idea.syr" 

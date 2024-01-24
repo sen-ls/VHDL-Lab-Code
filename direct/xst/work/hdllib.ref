@@ -1,0 +1,8 @@
+AR addop behavioral /nas/lrz/home/ge34gak/direct/addop.vhd sub00/vhpl05 1700750523
+EN mulop NULL /nas/lrz/home/ge34gak/direct/mulop.vhd sub00/vhpl02 1700752013
+EN trafo NULL /nas/lrz/home/ge34gak/direct/trafo.vhd sub00/vhpl06 1700750524
+EN addop NULL /nas/lrz/home/ge34gak/direct/addop.vhd sub00/vhpl04 1700750522
+AR trafo behavioral /nas/lrz/home/ge34gak/direct/trafo.vhd sub00/vhpl07 1700750525
+EN xorop NULL /home/ise/Xilinx/submission_template/submit/direct/xorop.vhd sub00/vhpl00 1700059274
+AR mulop behavioral /nas/lrz/home/ge34gak/direct/mulop.vhd sub00/vhpl03 1700752014
+AR xorop behavioral /home/ise/Xilinx/submission_template/submit/direct/xorop.vhd sub00/vhpl01 1700059275

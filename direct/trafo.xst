@@ -1,0 +1,5 @@
+set -tmpdir "/nas/lrz/home/ge34gak/direct/xst/projnav.tmp"
+set -xsthdpdir "/nas/lrz/home/ge34gak/direct/xst"
+elaborate
+-ifn trafo.prj
+-ifmt mixed

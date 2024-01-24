@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/xorop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Xilinx/submission_template/submit/direct/xorop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/nas/lrz/home/ge34gak/direct/xorop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/xorop/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/Xilinx/submission_template/submit/direct/xorop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/nas/lrz/home/ge34gak/direct/xorop.vhd</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="804" delta="new" >&quot;<arg fmt="%s" index="1">/nas/lrz/home/ge34gak/direct/mulop.vhd</arg>&quot; Line <arg fmt="%d" index="2">63</arg>. Size of <arg fmt="%s" index="3">num</arg> is different than size of <arg fmt="%s" index="4">the target</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="804" delta="new" >&quot;<arg fmt="%s" index="1">/nas/lrz/home/ge34gak/direct/mulop.vhd</arg>&quot; Line <arg fmt="%d" index="2">64</arg>. Size of <arg fmt="%s" index="3">num</arg> is different than size of <arg fmt="%s" index="4">the target</arg>.
+</msg>
+
+</messages>
+
