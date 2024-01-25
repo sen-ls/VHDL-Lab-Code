@@ -19,7 +19,7 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -38,170 +38,105 @@ entity roundcounter is
            S_i : out  STD_LOGIC;
            INIT : out  STD_LOGIC;
            TRAFO : out  STD_LOGIC;
-           ROUND : out  STD_LOGIC_VECTOR (3 downto 0);
-			  sl : out  STD_LOGIC;
-			  se : out  STD_LOGIC;
-			  ca : out  STD_LOGIC);
+           ROUND : out  STD_LOGIC_VECTOR (3 downto 0));
 end roundcounter;
 
 architecture Behavioral of roundcounter is
 
-type STATE_TYPE is (Sleep, Setup, Calc);
-signal CURRENT_STATE : STATE_TYPE := Sleep;
-signal NEXT_STATE : STATE_TYPE := Sleep;
-signal s1,s2,c1 : std_logic := '0';
-
-signal round_counter : std_logic_vector(3 downto 0) := "1000";
+type STATE_TYPE is (sleep, setup, calc);--for 1st state machine, here are the name of the states
+signal CURRENT_STATE, NEXT_STATE:STATE_TYPE:=sleep;--for 1st state machine, this is for moving forward through states
+signal cin : std_logic_vector(3 downto 0) :="1000"; --this is for the second state machine which is only calculating the round number
+signal update_counter : std_logic := '0';
 
 begin
---process changing round counter
-process(CLK)
-begin
+
+round_internal: process(CLK)--2nd state machine, internal counter,fig 42, only gives cin=the count value of rounds
+	begin
     if rising_edge(CLK) then
-        case round_counter is
-            when "1000" =>
-                if START = '1' then
-                    round_counter <= "0000";
-                end if;
-                
-            when others =>
-                if RESULT = '1' then
-                    round_counter <= std_logic_vector(unsigned(round_counter) + 1);
-                end if;
-        end case;
-    end if;
-end process;
---process state 
-process(CLK)
-begin
-    if rising_edge(CLK) then
+        -- Determine whether to update the counter
+        update_counter <= '0';
+        if (cin /= "1000" and RESULT = '1') then
+            update_counter <= '1';
+        elsif (cin = "1000" and START = '1') then
+            update_counter <= '1';
+        end if;
 
-        CURRENT_STATE <= NEXT_STATE;
-		  
-		  case CURRENT_STATE is
-				when Sleep =>
-                INIT <= '0';
-                READY <= '1';
-					if START = '1' then
-						NEXT_STATE <= Setup;
-					else
-						NEXT_STATE <= Sleep;
-					end if;
-					s1 <= '1';
-					s2 <= '0';
-					c1 <= '0';
-
-				when Setup =>
-                INIT <= '1';
-                READY <= '0';
-					 NEXT_STATE <= Calc;
-					s1 <= '0';
-					s2 <= '1';
-					c1 <= '0';
-					
-				when Calc =>
-                INIT <= '0';
-                READY <= '0';
-					if round_counter = "1000" then
-						 if RESULT = '1' then
-							  NEXT_STATE <= Sleep;
-						 else
-							  -- 如果 RESULT 不为 '1' 且 round_counter 为 "1000"
-							  NEXT_STATE <= Calc;
-						 end if;
-					else
-						 if RESULT = '1' then
-							  NEXT_STATE <= Setup;
-						 else
-							  NEXT_STATE <= Calc;
-						 end if;
-					end if;
-					s1 <= '0';
-					s2 <= '0';
-					c1 <= '1';					 
-        end case;		
-	end if;
-end process;
-
-process(round_counter)
-begin
-
-    TRAFO <= round_counter(3); 
-    S_i <= '0';
-    if round_counter = "0000" then
-        S_i <= '1';
-    end if;
-end process;
-		  
-		  sl <= s1;
-		  se <= s2;
-    	  ca <= c1;
-		  ROUND <= round_counter;
+        -- Update the counter based on the condition
+        if update_counter = '1' then
+            if cin = "1000" then
+                cin <= "0000";
+            else
+                cin <= cin + 1;
+            end if;
+        end if;
+    end if;	  
 	
---	 process(CLK)
---		begin
---    if rising_edge(CLK) then
---	 	  
---        case CURRENT_STATE is
---            when Sleep =>
---                if START = '1' then
---                    INIT <= '1'; 
---                    NEXT_STATE <= Setup;
---                else
---                    INIT <= '0';
---                end if;		
---                READY <= '1'; 
---                round_counter <= "1000";
---					s1 <= '1';
---					s2 <= '0';
---					c1 <= '0';
---
---            when Setup =>
---                INIT <= '1'; 
---                NEXT_STATE <= Calc;
---                READY <= '0';
---					s1 <= '0';
---					s2 <= '1';
---					c1 <= '0';
---
---            when Calc =>
---                INIT <= '0'; 
---                if RESULT = '1' then
---                    if round_counter = "1000" then
---                        NEXT_STATE <= Sleep;
---                    else
---                        NEXT_STATE <= Setup;
---                    end if;
---                else
---                    NEXT_STATE <= Calc;
---                end if;
---                READY <= '0';
---					s1 <= '0';
---					s2 <= '0';
---					c1 <= '1';					 
---        end case;
---
---        if RESULT = '1' then
---            if round_counter = "1000" then
---                round_counter <= "0000";
---            else
---                round_counter <= std_logic_vector(unsigned(round_counter) + 1);
---            end if;
---        end if;
---		  
---		  CURRENT_STATE <= NEXT_STATE;
---		  
---		  sl <= s1;
---		  se <= s2;
---		  ca <= c1;
---
---		  ROUND <= round_counter;
---        TRAFO <= round_counter(3);
---        S_i <= '0';
---        if round_counter = "0000" then
---            S_i <= '1';
---        end if;
---    end if;		  
---  end process;
-end Behavioral;
+--			if(rising_edge(CLK)) then
+--				if(cin/="1000") then
+--					if(RESULT = '1') then
+--						cin <= cin + 1;
+--					else
+--						cin <= cin;
+--					end if;
+--					
+--				elsif(cin = "1000") then
+--					if(START = '1') then
+--						cin <= "0000";
+--					else
+--						cin <= "1000";
+--					end if;
+--				end if;
+--			
+--			end if;
+	end process;
 
+state_reg: process(CLK)--1st state machine (1st part). This is the format to follow. avoid structure like above(complicated)
+	begin
+		if (rising_edge(CLK)) then
+			 CURRENT_STATE <= NEXT_STATE;
+		end if;
+	end process;
+
+comb_logic: process(CURRENT_STATE, START, RESULT, cin)
+	begin
+		case CURRENT_STATE is
+			when sleep =>
+				INIT <='0';
+				READY <= '1';
+				if (START = '1') then
+					NEXT_STATE <= setup;
+				else
+					NEXT_STATE <= sleep;
+				end if;
+				
+			when setup =>
+				INIT <= '1';
+				READY <= '0';	
+				NEXT_STATE <= calc;
+
+			when calc =>
+				INIT <= '0';
+				READY <= '0';					
+				if (RESULT = '0') then
+					NEXT_STATE <= calc;
+				elsif (RESULT = '1' and cin = "1000") then
+					NEXT_STATE <= sleep;
+				else
+					NEXT_STATE <= setup;
+				end if;
+		end case;
+		
+		if (cin = "0000") then
+			S_i <= '1';
+		else
+			S_i <= '0';
+		end if;
+
+	end process;
+	
+	TRAFO <= cin(3);--MSB of counter value defines TRAFO, means only in 1000, out transformation gets enabled
+	ROUND <= cin;	
+	
+	
+end Behavioral;		
+			

@@ -48,10 +48,7 @@ ARCHITECTURE behavior OF tb_roundcounter IS
          S_i : OUT  std_logic;
          INIT : OUT  std_logic;
          TRAFO : OUT  std_logic;
-         ROUND : OUT  std_logic_vector(3 downto 0);
-						  sl : out  STD_LOGIC;
-			  se : out  STD_LOGIC;
-			  ca : out  STD_LOGIC
+         ROUND : OUT  std_logic_vector(3 downto 0)
         );
     END COMPONENT;
     
@@ -68,7 +65,6 @@ ARCHITECTURE behavior OF tb_roundcounter IS
    signal TRAFO : std_logic;
    signal ROUND : std_logic_vector(3 downto 0);
 	
-	signal sl,se,ca : std_logic;
 
    -- Clock period definitions
    constant CLK_period : time := 10 ns;
@@ -84,10 +80,7 @@ BEGIN
           S_i => S_i,
           INIT => INIT,
           TRAFO => TRAFO,
-          ROUND => ROUND,
-			 sl => sl,
-			 se => se,
-			 ca => ca
+          ROUND => ROUND
         );
 
    -- Clock process definitions
