@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/mux4x1.vhd";
+static const char *ng0 = "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux4x1.vhd";
 
 
 
@@ -49,29 +49,29 @@ static void work_a_3279062471_3212880686_p_0(char *t0)
 LAB0:    xsi_set_current_line(48, ng0);
     t1 = (t0 + 1672U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5618);
+    t1 = (t0 + 5362);
     t4 = xsi_mem_cmp(t1, t2, 2U);
     if (t4 == 1)
         goto LAB3;
 
-LAB8:    t5 = (t0 + 5620);
+LAB8:    t5 = (t0 + 5364);
     t7 = xsi_mem_cmp(t5, t2, 2U);
     if (t7 == 1)
         goto LAB4;
 
-LAB9:    t8 = (t0 + 5622);
+LAB9:    t8 = (t0 + 5366);
     t10 = xsi_mem_cmp(t8, t2, 2U);
     if (t10 == 1)
         goto LAB5;
 
-LAB10:    t11 = (t0 + 5624);
+LAB10:    t11 = (t0 + 5368);
     t13 = xsi_mem_cmp(t11, t2, 2U);
     if (t13 == 1)
         goto LAB6;
 
 LAB11:
 LAB7:    xsi_set_current_line(53, ng0);
-    t1 = (t0 + 5626);
+    t1 = (t0 + 5370);
     t3 = (t0 + 3384);
     t5 = (t3 + 56U);
     t6 = *((char **)t5);

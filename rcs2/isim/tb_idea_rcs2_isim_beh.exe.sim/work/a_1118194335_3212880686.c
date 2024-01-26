@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/register16.vhd";
+static const char *ng0 = "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/register16.vhd";
 
 
 

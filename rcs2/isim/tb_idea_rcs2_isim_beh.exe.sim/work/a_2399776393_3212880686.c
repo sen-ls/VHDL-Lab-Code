@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/datapath.vhd";
+static const char *ng0 = "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/datapath.vhd";
 
 
 
@@ -35,7 +35,7 @@ static void work_a_2399776393_3212880686_p_0(char *t0)
     char *t6;
     char *t7;
 
-LAB0:    xsi_set_current_line(243, ng0);
+LAB0:    xsi_set_current_line(244, ng0);
 
 LAB3:    t1 = (t0 + 5512U);
     t2 = *((char **)t1);
@@ -65,7 +65,7 @@ static void work_a_2399776393_3212880686_p_1(char *t0)
     char *t6;
     char *t7;
 
-LAB0:    xsi_set_current_line(244, ng0);
+LAB0:    xsi_set_current_line(245, ng0);
 
 LAB3:    t1 = (t0 + 5672U);
     t2 = *((char **)t1);
@@ -95,7 +95,7 @@ static void work_a_2399776393_3212880686_p_2(char *t0)
     char *t6;
     char *t7;
 
-LAB0:    xsi_set_current_line(245, ng0);
+LAB0:    xsi_set_current_line(246, ng0);
 
 LAB3:    t1 = (t0 + 5832U);
     t2 = *((char **)t1);
@@ -125,7 +125,7 @@ static void work_a_2399776393_3212880686_p_3(char *t0)
     char *t6;
     char *t7;
 
-LAB0:    xsi_set_current_line(246, ng0);
+LAB0:    xsi_set_current_line(247, ng0);
 
 LAB3:    t1 = (t0 + 5992U);
     t2 = *((char **)t1);

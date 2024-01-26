@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 Reading design: idea_com.prj
@@ -107,41 +107,42 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux4x1.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux4x1.vhd" in Library work.
 Architecture behavioral of Entity mux4x1 is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/register16.vhd" in Library work.
-Architecture behavioral of Entity register16 is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/xorop.vhd" in Library work.
-Architecture behavioral of Entity xorop is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mulop.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mulop.vhd" in Library work.
 Architecture behavioral of Entity mulop is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/addop.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/register16.vhd" in Library work.
+Architecture behavioral of Entity register16 is up to date.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/xorop.vhd" in Library work.
+Architecture behavioral of Entity xorop is up to date.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/addop.vhd" in Library work.
 Architecture behavioral of Entity addop is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/datapath.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/datapath.vhd" in Library work.
 Architecture behavioral of Entity datapath is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/control.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/control.vhd" in Library work.
 Architecture behavioral of Entity control is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux2x1.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux2x1.vhd" in Library work.
 Architecture behavioral of Entity mux2x1 is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/keygenerator.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/keygenerator.vhd" in Library work.
 Architecture behavioral of Entity keygenerator is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clockedround.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clockedround.vhd" in Library work.
 Architecture structural of Entity clockedround is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/roundcounter.vhd" in Library work.
-Architecture behavioral of Entity roundcounter is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/txmit.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/roundcounter.vhd" in Library work.
+Entity <roundcounter> compiled.
+Entity <roundcounter> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/txmit.vhd" in Library work.
 Architecture behavior of Entity txmit is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/rxcver.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/rxcver.vhd" in Library work.
 Architecture behavior of Entity rxcver is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/uart.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/uart.vhd" in Library work.
 Architecture behavior of Entity uart is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_rcs2.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_rcs2.vhd" in Library work.
 Architecture structural of Entity idea_rcs2 is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clk_div.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clk_div.vhd" in Library work.
 Architecture behavioral of Entity clk_div is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com_inner.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com_inner.vhd" in Library work.
 Architecture behavioral of Entity idea_com_inner is up to date.
-Compiling vhdl file "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.vhd" in Library work.
+Compiling vhdl file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com.vhd" in Library work.
 Architecture behavioral of Entity idea_com is up to date.
 
 =========================================================================
@@ -177,11 +178,11 @@ Analyzing hierarchy for entity <control> in library <work> (architecture <behavi
 
 Analyzing hierarchy for entity <mux4x1> in library <work> (architecture <behavioral>).
 
+Analyzing hierarchy for entity <mulop> in library <work> (architecture <behavioral>).
+
 Analyzing hierarchy for entity <register16> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <xorop> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <mulop> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <addop> in library <work> (architecture <behavioral>).
 
@@ -227,14 +228,14 @@ Analyzing Entity <datapath> in library <work> (Architecture <behavioral>).
 Entity <datapath> analyzed. Unit <datapath> generated.
 
 Analyzing Entity <mux4x1> in library <work> (Architecture <behavioral>).
-INFO:Xst:1561 - "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux4x1.vhd" line 52: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux4x1.vhd" line 52: Mux is complete : default of case is discarded
 Entity <mux4x1> analyzed. Unit <mux4x1> generated.
-
-Analyzing Entity <xorop> in library <work> (Architecture <behavioral>).
-Entity <xorop> analyzed. Unit <xorop> generated.
 
 Analyzing Entity <mulop> in library <work> (Architecture <behavioral>).
 Entity <mulop> analyzed. Unit <mulop> generated.
+
+Analyzing Entity <xorop> in library <work> (Architecture <behavioral>).
+Entity <xorop> analyzed. Unit <xorop> generated.
 
 Analyzing Entity <addop> in library <work> (Architecture <behavioral>).
 Entity <addop> analyzed. Unit <addop> generated.
@@ -246,7 +247,7 @@ Analyzing Entity <roundcounter> in library <work> (Architecture <behavioral>).
 Entity <roundcounter> analyzed. Unit <roundcounter> generated.
 
 Analyzing Entity <mux2x1> in library <work> (Architecture <behavioral>).
-INFO:Xst:1561 - "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux2x1.vhd" line 48: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux2x1.vhd" line 48: Mux is complete : default of case is discarded
 Entity <mux2x1> analyzed. Unit <mux2x1> generated.
 
 
@@ -257,7 +258,7 @@ Entity <mux2x1> analyzed. Unit <mux2x1> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <clk_div>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clk_div.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clk_div.vhd".
     Found 1-bit register for signal <CLK_OUT>.
     Found 32-bit comparator less for signal <CLK_OUT$cmp_lt0000> created at line 38.
     Found 32-bit comparator less for signal <CLK_OUT$cmp_lt0001> created at line 39.
@@ -270,12 +271,12 @@ Unit <clk_div> synthesized.
 
 
 Synthesizing Unit <mux2x1>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux2x1.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux2x1.vhd".
 Unit <mux2x1> synthesized.
 
 
 Synthesizing Unit <txmit>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/txmit.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/txmit.vhd".
     Found 1-bit register for signal <sout>.
     Found 3-bit up counter for signal <cnt>.
     Found 1-bit register for signal <tag1>.
@@ -295,7 +296,7 @@ Unit <txmit> synthesized.
 
 
 Synthesizing Unit <rxcver>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/rxcver.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/rxcver.vhd".
     Found 1-bit register for signal <parity_error>.
     Found 1-bit register for signal <framing_error>.
     Found 1-bit register for signal <overrun>.
@@ -321,7 +322,7 @@ Unit <rxcver> synthesized.
 
 
 Synthesizing Unit <register16>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/register16.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/register16.vhd".
     Found 16-bit register for signal <Q>.
     Summary:
 	inferred  16 D-type flip-flop(s).
@@ -329,72 +330,58 @@ Unit <register16> synthesized.
 
 
 Synthesizing Unit <keygenerator>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/keygenerator.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/keygenerator.vhd".
 WARNING:Xst:653 - Signal <num> is used but never assigned. This sourceless signal will be automatically connected to value 000.
 WARNING:Xst:646 - Signal <keys> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <keygenerator> synthesized.
 
 
 Synthesizing Unit <roundcounter>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/roundcounter.vhd".
-INFO:Xst:2117 - HDL ADVISOR - Mux Selector <CURRENT_STATE> of Case statement line 0 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
-   	- add an 'INIT' attribute on signal <CURRENT_STATE> (optimization is then done without any risk)
-   	- use the attribute 'signal_encoding user' to avoid onehot optimization
-   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
-    Using one-hot encoding for signal <CURRENT_STATE>.
-INFO:Xst:2117 - HDL ADVISOR - Mux Selector <CURRENT_STATE> of Case statement line 0 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
-   	- add an 'INIT' attribute on signal <CURRENT_STATE> (optimization is then done without any risk)
-   	- use the attribute 'signal_encoding user' to avoid onehot optimization
-   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
-INFO:Xst:2117 - HDL ADVISOR - Mux Selector <CURRENT_STATE> of Case statement line 0 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
-   	- add an 'INIT' attribute on signal <CURRENT_STATE> (optimization is then done without any risk)
-   	- use the attribute 'signal_encoding user' to avoid onehot optimization
-   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
-    Found 1-bit register for signal <S_i>.
-    Found 1-bit register for signal <INIT>.
-    Found 1-bit register for signal <READY>.
-    Found 4-bit up counter for signal <cin>.
-    Found 3-bit register for signal <CURRENT_STATE>.
-    Found 3-bit register for signal <NEXT_STATE>.
-    Found 1-bit register for signal <should_increment>.
-    Found 1-bit register for signal <should_reset>.
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/roundcounter.vhd".
+    Found finite state machine <FSM_0> for signal <CURRENT_STATE>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | sleep                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit register for signal <cin>.
+    Found 4-bit adder for signal <cin$addsub0000> created at line 58.
     Summary:
-	inferred   1 Counter(s).
-	inferred  11 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
 Unit <roundcounter> synthesized.
 
 
 Synthesizing Unit <control>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/control.vhd".
-    Found 8x1-bit ROM for signal <RESULT>.
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/control.vhd".
+    Found 8x6-bit ROM for signal <cin$rom0000>.
+    Found 2-bit 8-to-1 multiplexer for signal <S_T>.
     Found 3-bit register for signal <cin>.
-    Found 3-bit comparator less for signal <cin$cmp_lt0000> created at line 56.
-    Found 3-bit up counter for signal <cin1>.
-    Found 3-bit comparator greatequal for signal <cin1$cmp_ge0000> created at line 56.
+    Found 3-bit adder for signal <cin$share0000>.
     Summary:
 	inferred   1 ROM(s).
-	inferred   1 Counter(s).
 	inferred   3 D-type flip-flop(s).
-	inferred   2 Comparator(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
 Unit <control> synthesized.
 
 
 Synthesizing Unit <mux4x1>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux4x1.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux4x1.vhd".
     Found 16-bit 4-to-1 multiplexer for signal <O>.
     Summary:
 	inferred  16 Multiplexer(s).
 Unit <mux4x1> synthesized.
 
 
-Synthesizing Unit <xorop>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/xorop.vhd".
-    Found 16-bit xor2 for signal <O>.
-Unit <xorop> synthesized.
-
-
 Synthesizing Unit <mulop>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mulop.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mulop.vhd".
 WARNING:Xst:646 - Signal <ou<16>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 WARNING:Xst:646 - Signal <num<33>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 17x17-bit multiplier for signal <num>.
@@ -408,8 +395,14 @@ WARNING:Xst:646 - Signal <num<33>> is assigned but never used. This unconnected 
 Unit <mulop> synthesized.
 
 
+Synthesizing Unit <xorop>.
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/xorop.vhd".
+    Found 16-bit xor2 for signal <O>.
+Unit <xorop> synthesized.
+
+
 Synthesizing Unit <addop>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/addop.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/addop.vhd".
     Found 16-bit adder for signal <O>.
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -417,28 +410,28 @@ Unit <addop> synthesized.
 
 
 Synthesizing Unit <uart>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/uart.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/uart.vhd".
 Unit <uart> synthesized.
 
 
 Synthesizing Unit <datapath>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/datapath.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/datapath.vhd".
 Unit <datapath> synthesized.
 
 
 Synthesizing Unit <clockedround>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clockedround.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clockedround.vhd".
 Unit <clockedround> synthesized.
 
 
 Synthesizing Unit <idea_rcs2>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_rcs2.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_rcs2.vhd".
 Unit <idea_rcs2> synthesized.
 
 
 Synthesizing Unit <idea_com_inner>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com_inner.vhd".
-    Found finite state machine <FSM_0> for signal <state>.
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com_inner.vhd".
+    Found finite state machine <FSM_1> for signal <state>.
     -----------------------------------------------------------------------
     | States             | 12                                             |
     | Transitions        | 21                                             |
@@ -475,7 +468,7 @@ Unit <idea_com_inner> synthesized.
 
 
 Synthesizing Unit <idea_com>.
-    Related source file is "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.vhd".
+    Related source file is "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com.vhd".
 Unit <idea_com> synthesized.
 
 INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -485,32 +478,34 @@ HDL Synthesis Report
 
 Macro Statistics
 # ROMs                                                 : 1
- 8x1-bit ROM                                           : 1
+ 8x6-bit ROM                                           : 1
 # Multipliers                                          : 1
  17x17-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 4
+# Adders/Subtractors                                   : 6
  16-bit adder                                          : 1
  17-bit addsub                                         : 1
  17-bit subtractor                                     : 1
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
  5-bit adder                                           : 1
-# Counters                                             : 5
- 3-bit up counter                                      : 2
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
  32-bit up counter                                     : 1
- 4-bit up counter                                      : 2
-# Registers                                            : 263
- 1-bit register                                        : 245
+ 4-bit up counter                                      : 1
+# Registers                                            : 257
+ 1-bit register                                        : 240
  16-bit register                                       : 12
- 3-bit register                                        : 3
+ 3-bit register                                        : 1
+ 4-bit register                                        : 1
  5-bit register                                        : 1
  8-bit register                                        : 2
-# Comparators                                          : 6
+# Comparators                                          : 4
  128-bit comparator equal                              : 1
  17-bit comparator greatequal                          : 1
- 3-bit comparator greatequal                           : 1
- 3-bit comparator less                                 : 1
  32-bit comparator less                                : 2
-# Multiplexers                                         : 4
+# Multiplexers                                         : 5
  16-bit 4-to-1 multiplexer                             : 4
+ 2-bit 8-to-1 multiplexer                              : 1
 # Xors                                                 : 7
  1-bit xor2                                            : 2
  16-bit xor2                                           : 5
@@ -521,7 +516,7 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Analyzing FSM <FSM_0> for best encoding.
+Analyzing FSM <FSM_1> for best encoding.
 Optimizing FSM <idea_1/state/FSM> on signal <state[1:12]> with one-hot encoding.
 ---------------------------------------------------
  State                             | Encoding
@@ -539,35 +534,45 @@ Optimizing FSM <idea_1/state/FSM> on signal <state[1:12]> with one-hot encoding.
  wait_for_txrdy_1                  | 100000000000
  loopback_mode                     | 000000100000
 ---------------------------------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <idea_1/idea1/roucou/CURRENT_STATE/FSM> on signal <CURRENT_STATE[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ sleep | 00
+ setup | 01
+ calc  | 10
+-------------------
 
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# FSMs                                                 : 1
+# FSMs                                                 : 2
 # ROMs                                                 : 1
- 8x1-bit ROM                                           : 1
+ 8x6-bit ROM                                           : 1
 # Multipliers                                          : 1
  17x17-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 4
+# Adders/Subtractors                                   : 6
  16-bit adder                                          : 1
  17-bit addsub                                         : 1
  17-bit subtractor                                     : 1
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
  5-bit adder                                           : 1
-# Counters                                             : 5
- 3-bit up counter                                      : 2
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
  32-bit up counter                                     : 1
- 4-bit up counter                                      : 2
-# Registers                                            : 467
- Flip-Flops                                            : 467
-# Comparators                                          : 6
+ 4-bit up counter                                      : 1
+# Registers                                            : 460
+ Flip-Flops                                            : 460
+# Comparators                                          : 4
  128-bit comparator equal                              : 1
  17-bit comparator greatequal                          : 1
- 3-bit comparator greatequal                           : 1
- 3-bit comparator less                                 : 1
  32-bit comparator less                                : 2
-# Multiplexers                                         : 4
+# Multiplexers                                         : 5
  16-bit 4-to-1 multiplexer                             : 4
+ 2-bit 8-to-1 multiplexer                              : 1
 # Xors                                                 : 7
  1-bit xor2                                            : 2
  16-bit xor2                                           : 5
@@ -604,7 +609,7 @@ Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block idea_com, actual ratio is 15.
 FlipFlop idea_1/idea1/roucou/cin_0 has been replicated 4 time(s)
-FlipFlop idea_1/idea1/roucou/cin_1 has been replicated 5 time(s)
+FlipFlop idea_1/idea1/roucou/cin_1 has been replicated 3 time(s)
 FlipFlop idea_1/idea1/roucou/cin_2 has been replicated 4 time(s)
 FlipFlop idea_1/idea1/roucou/cin_3 has been replicated 1 time(s)
 
@@ -614,8 +619,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 539
- Flip-Flops                                            : 539
+# Registers                                            : 525
+ Flip-Flops                                            : 525
 
 =========================================================================
 
@@ -644,32 +649,33 @@ Design Statistics
 # IOs                              : 12
 
 Cell Usage :
-# BELS                             : 1662
+# BELS                             : 1660
 #      GND                         : 1
-#      INV                         : 15
+#      INV                         : 13
 #      LUT1                        : 37
-#      LUT2                        : 159
-#      LUT3                        : 317
+#      LUT2                        : 155
+#      LUT3                        : 313
 #      LUT3_D                      : 9
 #      LUT3_L                      : 20
-#      LUT4                        : 677
-#      LUT4_D                      : 16
+#      LUT4                        : 681
+#      LUT4_D                      : 17
 #      LUT4_L                      : 57
 #      MUXCY                       : 149
-#      MUXF5                       : 124
+#      MUXF5                       : 127
 #      VCC                         : 1
 #      XORCY                       : 80
-# FlipFlops/Latches                : 539
-#      FD                          : 7
+# FlipFlops/Latches                : 525
+#      FD                          : 20
 #      FDC                         : 15
 #      FDCE                        : 14
-#      FDE                         : 397
+#      FDE                         : 395
 #      FDP                         : 18
-#      FDR                         : 45
-#      FDRE                        : 27
+#      FDR                         : 42
+#      FDRE                        : 9
 #      FDRS                        : 4
 #      FDRSE                       : 2
-#      FDS                         : 10
+#      FDS                         : 5
+#      FDSE                        : 1
 # Clock Buffers                    : 2
 #      BUFG                        : 1
 #      BUFGP                       : 1
@@ -685,9 +691,9 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                      693  out of   4656    14%  
- Number of Slice Flip Flops:            539  out of   9312     5%  
- Number of 4 input LUTs:               1307  out of   9312    14%  
+ Number of Slices:                      691  out of   4656    14%  
+ Number of Slice Flip Flops:            525  out of   9312     5%  
+ Number of 4 input LUTs:               1302  out of   9312    13%  
  Number of IOs:                          12
  Number of bonded IOBs:                  12  out of    232     5%  
  Number of MULT18X18SIOs:                 1  out of     20     5%  
@@ -715,7 +721,7 @@ Clock Information:
 Clock Signal                       | Clock buffer(FF name)         | Load  |
 -----------------------------------+-------------------------------+-------+
 Clk                                | BUFGP                         | 33    |
-clk_div_1/CLK_OUT1                 | BUFG                          | 482   |
+clk_div_1/CLK_OUT1                 | BUFG                          | 468   |
 idea_1/uart1/rx/rxclk              | NONE(idea_1/uart1/rx/rxparity)| 12    |
 idea_1/uart1/tx/txclk              | NONE(idea_1/uart1/tx/tsr_7)   | 12    |
 -----------------------------------+-------------------------------+-------+
@@ -780,7 +786,7 @@ Delay:               7.013ns (Levels of Logic = 14)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_div_1/CLK_OUT1'
   Clock period: 26.537ns (frequency: 37.683MHz)
-  Total number of paths / destination ports: 1899580926 / 936
+  Total number of paths / destination ports: 1939955512 / 880
 -------------------------------------------------------------------------
 Delay:               26.537ns (Levels of Logic = 46)
   Source:            idea_1/idea1/roucou/cin_1_1 (FF)
@@ -792,7 +798,7 @@ Delay:               26.537ns (Levels of Logic = 46)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            21   0.591   1.163  idea_1/idea1/roucou/cin_1_1 (idea_1/idea1/roucou/cin_1_1)
+     FD:C->Q              21   0.591   1.163  idea_1/idea1/roucou/cin_1_1 (idea_1/idea1/roucou/cin_1_1)
      LUT3_D:I2->O         57   0.704   1.305  idea_1/idea1/keyge/new_key_cmp_eq000011 (idea_1/idea1/keyge/N3)
      LUT4:I2->O            2   0.704   0.482  idea_1/idea1/keyge/new_key<43>10 (idea_1/idea1/keyge/new_key<36>48)
      LUT3:I2->O            1   0.704   0.424  idea_1/idea1/keyge/new_key<36>57 (idea_1/idea1/keyge/new_key<36>57)
@@ -846,10 +852,10 @@ Delay:               26.537ns (Levels of Logic = 46)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'idea_1/uart1/rx/rxclk'
-  Clock period: 2.846ns (frequency: 351.370MHz)
+  Clock period: 2.863ns (frequency: 349.284MHz)
   Total number of paths / destination ports: 24 / 12
 -------------------------------------------------------------------------
-Delay:               2.846ns (Levels of Logic = 1)
+Delay:               2.863ns (Levels of Logic = 1)
   Source:            idea_1/uart1/rx/idle (FF)
   Destination:       idea_1/uart1/rx/rxparity (FF)
   Source Clock:      idea_1/uart1/rx/rxclk rising
@@ -859,12 +865,12 @@ Delay:               2.846ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDP:C->Q             18   0.591   1.243  idea_1/uart1/rx/idle (idea_1/uart1/rx/idle)
+     FDP:C->Q             19   0.591   1.260  idea_1/uart1/rx/idle (idea_1/uart1/rx/idle)
      LUT2:I0->O            1   0.704   0.000  idea_1/uart1/rx/rxparity_mux00011 (idea_1/uart1/rx/rxparity_mux0001)
      FDP:D                     0.308          idea_1/uart1/rx/rxparity
     ----------------------------------------
-    Total                      2.846ns (1.603ns logic, 1.243ns route)
-                                       (56.3% logic, 43.7% route)
+    Total                      2.863ns (1.603ns logic, 1.260ns route)
+                                       (56.0% logic, 44.0% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'idea_1/uart1/tx/txclk'
@@ -972,15 +978,15 @@ Offset:              4.310ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 16.00 secs
-Total CPU time to Xst completion: 9.49 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.97 secs
  
 --> 
 
 
-Total memory usage is 557476 kilobytes
+Total memory usage is 557740 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    4 (   0 filtered)
-Number of infos    :   11 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
 

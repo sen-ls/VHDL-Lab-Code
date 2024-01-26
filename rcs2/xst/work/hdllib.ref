@@ -1,36 +1,36 @@
-EN rxcver NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/rxcver.vhd" sub00/vhpl26 1705668100
-AR keygenerator behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/keygenerator.vhd" sub00/vhpl23 1705668093
-AR idea_com_inner behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com_inner.vhd" sub00/vhpl33 1705668109
-AR clk_div behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clk_div.vhd" sub00/vhpl31 1705668107
-EN roundcounter NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/roundcounter.vhd" sub00/vhpl02 1705668096
-AR addop behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/addop.vhd" sub00/vhpl14 1705668085
-EN mulop NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mulop.vhd" sub00/vhpl11 1705668082
-AR idea_rcs2 structural "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_rcs2.vhd" sub00/vhpl21 1705668105
-EN datapath NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/datapath.vhd" sub00/vhpl15 1705668086
-EN addop NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/addop.vhd" sub00/vhpl13 1705668084
-AR roundcounter behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/roundcounter.vhd" sub00/vhpl03 1705668097
-EN mux2x1 NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux2x1.vhd" sub00/vhpl18 1705668090
-AR mux2x1 behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux2x1.vhd" sub00/vhpl19 1705668091
-EN idea_com NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.vhd" sub00/vhpl34 1705668110
-EN register16 NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/register16.vhd" sub00/vhpl07 1705668078
-EN idea_rcs2 NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_rcs2.vhd" sub00/vhpl20 1705668104
-AR uart behavior "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/uart.vhd" sub00/vhpl29 1705668103
-AR rxcver behavior "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/rxcver.vhd" sub00/vhpl27 1705668101
-AR register16 behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/register16.vhd" sub00/vhpl08 1705668079
-AR txmit behavior "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/txmit.vhd" sub00/vhpl25 1705668099
-EN mux4x1 NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux4x1.vhd" sub00/vhpl05 1705668076
-AR mux4x1 behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mux4x1.vhd" sub00/vhpl06 1705668077
-AR idea_com behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com.vhd" sub00/vhpl35 1705668111
-EN xorop NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/xorop.vhd" sub00/vhpl09 1705668080
-EN control NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/control.vhd" sub00/vhpl00 1705668088
-AR mulop behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/mulop.vhd" sub00/vhpl12 1705668083
-EN txmit NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/txmit.vhd" sub00/vhpl24 1705668098
-AR control behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/control.vhd" sub00/vhpl01 1705668089
-AR datapath behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/datapath.vhd" sub00/vhpl16 1705668087
-EN uart NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/uart.vhd" sub00/vhpl28 1705668102
-EN clockedround NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clockedround.vhd" sub00/vhpl04 1705668094
-EN clk_div NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clk_div.vhd" sub00/vhpl30 1705668106
-AR xorop behavioral "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/xorop.vhd" sub00/vhpl10 1705668081
-AR clockedround structural "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/clockedround.vhd" sub00/vhpl17 1705668095
-EN keygenerator NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/keygenerator.vhd" sub00/vhpl22 1705668092
-EN idea_com_inner NULL "/nas/lrz/home/ge34gak/VHDL Pratikum/rcs2/idea_com_inner.vhd" sub00/vhpl32 1705668108
+EN rxcver NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/rxcver.vhd sub00/vhpl26 1706275529
+AR keygenerator behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/keygenerator.vhd sub00/vhpl23 1706275522
+AR idea_com_inner behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com_inner.vhd sub00/vhpl33 1706275538
+AR clk_div behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clk_div.vhd sub00/vhpl31 1706275536
+EN roundcounter NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/roundcounter.vhd sub00/vhpl02 1706275525
+AR addop behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/addop.vhd sub00/vhpl14 1706275514
+EN mulop NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mulop.vhd sub00/vhpl11 1706275507
+AR idea_rcs2 structural /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_rcs2.vhd sub00/vhpl21 1706275534
+EN datapath NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/datapath.vhd sub00/vhpl15 1706275515
+EN addop NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/addop.vhd sub00/vhpl13 1706275513
+AR roundcounter behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/roundcounter.vhd sub00/vhpl03 1706275526
+EN mux2x1 NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux2x1.vhd sub00/vhpl18 1706275519
+AR mux2x1 behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux2x1.vhd sub00/vhpl19 1706275520
+EN idea_com NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com.vhd sub00/vhpl34 1706275539
+EN register16 NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/register16.vhd sub00/vhpl07 1706275509
+EN idea_rcs2 NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_rcs2.vhd sub00/vhpl20 1706275533
+AR uart behavior /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/uart.vhd sub00/vhpl29 1706275532
+AR rxcver behavior /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/rxcver.vhd sub00/vhpl27 1706275530
+AR register16 behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/register16.vhd sub00/vhpl08 1706275510
+AR txmit behavior /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/txmit.vhd sub00/vhpl25 1706275528
+EN mux4x1 NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux4x1.vhd sub00/vhpl05 1706275505
+AR mux4x1 behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux4x1.vhd sub00/vhpl06 1706275506
+AR idea_com behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com.vhd sub00/vhpl35 1706275540
+EN xorop NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/xorop.vhd sub00/vhpl09 1706275511
+EN control NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/control.vhd sub00/vhpl00 1706275517
+AR mulop behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mulop.vhd sub00/vhpl12 1706275508
+EN txmit NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/txmit.vhd sub00/vhpl24 1706275527
+AR control behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/control.vhd sub00/vhpl01 1706275518
+AR datapath behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/datapath.vhd sub00/vhpl16 1706275516
+EN uart NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/uart.vhd sub00/vhpl28 1706275531
+EN clockedround NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clockedround.vhd sub00/vhpl04 1706275523
+EN clk_div NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clk_div.vhd sub00/vhpl30 1706275535
+AR xorop behavioral /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/xorop.vhd sub00/vhpl10 1706275512
+AR clockedround structural /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clockedround.vhd sub00/vhpl17 1706275524
+EN keygenerator NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/keygenerator.vhd sub00/vhpl22 1706275521
+EN idea_com_inner NULL /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_com_inner.vhd sub00/vhpl32 1706275537

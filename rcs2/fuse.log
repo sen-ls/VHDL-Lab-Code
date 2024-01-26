@@ -1,25 +1,25 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_idea_rcs2_isim_beh.exe -prj /home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_idea_rcs2_beh.prj work.tb_idea_rcs2 
+Running: /nas/ei/share/tools/xilinx/ise/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/tb_idea_rcs2_isim_beh.exe -prj /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/tb_idea_rcs2_beh.prj work.tb_idea_rcs2 
 ISim P.20131013 (signature 0xfbc00daa)
-Number of CPUs detected in this system: 1
-Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/xorop.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/register16.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/mux4x1.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/mulop.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/addop.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/datapath.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/control.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/roundcounter.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/mux2x1.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/keygenerator.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/clockedround.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/idea_rcs2.vhd" into library work
-Parsing VHDL file "/home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_idea_rcs2.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/xorop.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/register16.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux4x1.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mulop.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/addop.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/datapath.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/control.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/roundcounter.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/mux2x1.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/keygenerator.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/clockedround.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/idea_rcs2.vhd" into library work
+Parsing VHDL file "/nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/tb_idea_rcs2.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 98856 KB
-Fuse CPU Usage: 470 ms
+Fuse Memory Usage: 94112 KB
+Fuse CPU Usage: 1020 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
@@ -29,8 +29,8 @@ Compiling architecture behavioral of entity register16 [register16_default]
 Compiling architecture behavioral of entity keygenerator [keygenerator_default]
 Compiling package numeric_std
 Compiling architecture behavioral of entity mux4x1 [mux4x1_default]
-Compiling architecture behavioral of entity xorop [xorop_default]
 Compiling architecture behavioral of entity mulop [mulop_default]
+Compiling architecture behavioral of entity xorop [xorop_default]
 Compiling architecture behavioral of entity addop [addop_default]
 Compiling architecture behavioral of entity datapath [datapath_default]
 Compiling architecture behavioral of entity control [control_default]
@@ -39,8 +39,9 @@ Compiling architecture behavioral of entity roundcounter [roundcounter_default]
 Compiling architecture structural of entity idea_rcs2 [idea_rcs2_default]
 Compiling architecture behavior of entity tb_idea_rcs2
 Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
 Compiled 30 VHDL Units
-Built simulation executable /home/ise/Xilinx/submission_template/submit/selected_files_2024119_164250/rcs2/tb_idea_rcs2_isim_beh.exe
-Fuse Memory Usage: 117980 KB
-Fuse CPU Usage: 670 ms
-GCC CPU Usage: 1920 ms
+Built simulation executable /nas/ei/home/ge34gak/VHDL/VHDL-Lab-Code-main/rcs2/tb_idea_rcs2_isim_beh.exe
+Fuse Memory Usage: 670332 KB
+Fuse CPU Usage: 1160 ms
+GCC CPU Usage: 710 ms
